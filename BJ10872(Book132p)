@@ -1,0 +1,8 @@
+def fac(n):
+    if n==0:
+        return 1
+    else:
+        return fac(n-1)*n #리턴에서 함수호출가능
+
+n=int(input())
+print(fac(n))
