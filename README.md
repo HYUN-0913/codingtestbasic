@@ -3,8 +3,8 @@
 
 
 ### 그리디
-#### - 이론
-거스름돈: Click [BJ11047(Book86p)](https://github.com/HYUN-0913/codingtestbasic/blob/master/BJ11047.txt)
+- 이론
+   - 거스름돈: Click [BJ11047(Book86p)](https://github.com/HYUN-0913/codingtestbasic/blob/master/BJ11047.txt)
 
 - 실전
    - 큰 수의 법칙
@@ -18,7 +18,7 @@
    - 무지의 먹방 라이브
 
 
--구현 (시뮬레이션, 완전탐색)
+###구현 (시뮬레이션, 완전탐색)
 - 이론
    시뮬레이션-상하좌우: Book110p
    완전탐색-시각: Book113p
