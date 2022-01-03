@@ -1,0 +1,11 @@
+#500엔, 100엔, 50엔, 10엔, 5엔, 1엔
+w=int(input())
+K=(1000-w)
+coins=[500,100,50,10,5,1]
+cnt=0
+
+for each_coin in coins:
+    cnt+=K//each_coin
+    K=K%each_coin
+
+print(cnt)
