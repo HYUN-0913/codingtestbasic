@@ -5,7 +5,7 @@
 거스름돈: Click [BJ11047(Book86p)](https://github.com/HYUN-0913/codingtestbasic/blob/master/BJ11047.txt)
 
 ### 실전
-큰 수의 법칙
+큰 수의 법칙\n
 숫자 카드 게임
 1이 될 때까지: Book99p
 모험가 길드
