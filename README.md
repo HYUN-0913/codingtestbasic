@@ -1,6 +1,6 @@
 # codingtestbasic
-## BJ: [백준 온라인 저지](https://www.acmicpc.net/)
-## Book: [이것이 코딩 테스트다(한빛미디어, 나동빈)](https://www.youtube.com/playlist?list=PLRx0vPvlEmdBFBFOoK649FlEMouHISo8N)
+# BJ: [백준 온라인 저지](https://www.acmicpc.net/)
+# Book: [이것이 코딩 테스트다(한빛미디어, 나동빈)](https://www.youtube.com/playlist?list=PLRx0vPvlEmdBFBFOoK649FlEMouHISo8N)
 
 
 
