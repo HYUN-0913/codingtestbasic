@@ -21,13 +21,13 @@
 ### 구현 (시뮬레이션, 완전탐색)
 - 이론
    - 시뮬레이션-상하좌우: [Book110p](https://github.com/HYUN-0913/codingtestbasic/blob/master/Book110p)
-   - 완전탐색-시각: Book113p
+   - 완전탐색-시각: [Book113p](https://github.com/HYUN-0913/codingtestbasic/blob/master/Book113p)
 
 - 실전
    - 왕실의 나이트
    - 게임 개발
    - 럭키 스트레이트
-   - 문자열 재정렬: Book322p
+   - 문자열 재정렬: [Book322p](https://github.com/HYUN-0913/codingtestbasic/tree/master)
    - 문자열 압축
    - 자물쇠와 열쇠
    - 뱀
