@@ -42,3 +42,8 @@
    - 치킨 배달
    - 외벽 점검
    - 
+
+### 재귀 함수
+- 이론
+   - 팩토리얼: [BJ10872(Book132p)풀이](https://github.com/HYUN-0913/codingtestbasic/blob/master/BJ10872(Book132p)) [문제](https://www.acmicpc.net/problem/10872)
+   - 완전탐색-시각: [Book113p풀이](https://github.com/HYUN-0913/codingtestbasic/blob/master/Book113p)
