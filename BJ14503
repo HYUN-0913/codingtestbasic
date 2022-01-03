@@ -1,0 +1,53 @@
+import sys # sys.stdin.readline
+from collections import deque
+
+n, m = map(int ,sys.stdin.readline().split())# 열(세로), 행(가로) 입력
+x, y, d = map(int, sys.stdin.readline().split())# 청소기의 좌표와 방향
+maps = []# 청소기가 청소해야 할 맵 정보
+for _ in range(n):
+    maps.append(list(map(int, sys.stdin.readline().split())))
+
+# 북 동 남 서
+dx = [-1, 0, 1, 0] #반시계(왼쪽)방향 사방탐색 방법: maps[ty][tx] 아닌 maps[tx][ty]
+dy = [0, 1, 0, -1]
+
+def direction(n):
+    # 방향을 왼쪽으로 돌린다.
+    return n - 1 if n != 0 else 3 #n=0일때, -1자체는 가능하지만 계속 반복하려면 -1아닌 3(양수)이 되도록
+    
+def bfs(x, y, d): 
+    queue = deque([])# 큐 생성
+
+    queue.append((x, y, d)) # 청소기의 첫 번째 좌표와 방향 큐에 입력
+    maps[x][y] = 2 # 첫 번째 좌표 청소(입력값인 첫번째 현재위치는 항상 청소함
+    cnt = 1 # 청소 횟수 카운트
+
+    # 청소기가 방문할 좌표가 있으면 계속 반복
+    while queue:
+        # 방문한 좌표 pop
+        x, y, d = queue.popleft()
+        # 현재 방향에서 왼쪽 방향을 4번 확인한다.
+        for i in range(4):
+            # 방향 변경
+            d = direction(d)
+            # 변경한 방향으로 한 칸 전진한 좌표
+            tx = x + dx[d]
+            ty = y + dy[d]
+            # 전진했을 때 좌표가 0이고 맵의 범위를 넘지 않으면
+            if 0 <= tx < n and 0 <= ty < m and maps[tx][ty] == 0:
+                # 전진 후 청소와 청소 카운터, 다른 방향은 확인x
+                queue.append((tx, ty, d))
+                maps[tx][ty] = 2
+                cnt += 1
+                break
+            # 네 방향 모두 청소할 수 없고
+            if i == 3: # i=0~3까지 경우에 break탈출X여도 for안의 break밑부분 실행하지 않도록하기 위함
+                tx = x - dx[d]
+                ty = y - dy[d]
+                # 뒤로 갔을 때 벽이 아니라면 후진한다.
+                if 0 <= tx < n and 0 <= ty < m and maps[tx][ty] != 1:
+                    queue.append((tx, ty, d))
+    # 청소기가 벽을 만나면 해당 스코프로 오게 되고 이때까지 청소한 횟수를 리턴한다.
+    return cnt
+       
+print(bfs(x, y, d))
