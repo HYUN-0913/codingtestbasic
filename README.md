@@ -30,6 +30,7 @@ Book: [이것이 코딩 테스트다(한빛미디어, 나동빈)](https://www.yo
    - 완전탐색-시각: [Book113p풀이](https://github.com/HYUN-0913/codingtestbasic/blob/master/Book113p)
 
 - 실전
+   - 시뮬레이션- 로봇 청소기 [BJ14503풀이]() [문제](https://www.acmicpc.net/problem/14503)
    - 왕실의 나이트
    - 게임 개발
    - 럭키 스트레이트
