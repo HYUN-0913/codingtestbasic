@@ -9,7 +9,7 @@
 - 실전
    - 큰 수의 법칙
    - 숫자 카드 게임
-   - 1이 될 때까지: Book99p
+   - 1이 될 때까지: [Book99p](https://github.com/HYUN-0913/codingtestbasic/commit/5ec1d2f81e7619e054b00d3dca94c703018e4d52)
    - 모험가 길드
    - 곱하기 혹은 더하기
    - 문자열 뒤집기
