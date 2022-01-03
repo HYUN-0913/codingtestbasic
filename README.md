@@ -20,7 +20,7 @@
 
 ### 구현 (시뮬레이션, 완전탐색)
 - 이론
-   - 시뮬레이션-상하좌우: Book110p
+   - 시뮬레이션-상하좌우: [Book110p](https://github.com/HYUN-0913/codingtestbasic/blob/master/Book110p)
    - 완전탐색-시각: Book113p
 
 - 실전
