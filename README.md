@@ -52,3 +52,18 @@
    - 하노이의 탑: [BJ11729풀이](https://github.com/HYUN-0913/codingtestbasic/tree/master) [문제](https://www.acmicpc.net/problem/11729)
    - 확인..시그마: [BJ2775풀이]() [문제](https://www.acmicpc.net/problem/2775)
    - 확인..프랙탈 도형: [BJ2447풀이](https://github.com/HYUN-0913/codingtestbasic/blob/master/BJ2447) [문제](https://www.acmicpc.net/problem/2447)
+
+### DFS, BFS
+- 이론
+   - DFS- 음료수 얼려먹기: [Book149p풀이]
+   - BFS- 미로 탈출: [Book152p풀이]
+   
+- 실전
+   - 특정 거리의 도시찾기: [Book339p(18352)풀이] [문제](https://www.acmicpc.net/problem/18352)책
+   - 경쟁적 전염: [Book344p(18405)풀이] [문제](https://www.acmicpc.net/problem/18405)책
+   - 감시 피하기: [Book351p(18428)풀이] [문제](https://www.acmicpc.net/problem/18428)책
+   - 연구소
+   - 괄호 변환
+   - 연산자 끼워 넣기
+   - 인구 이동
+   - 블록 이동하기
